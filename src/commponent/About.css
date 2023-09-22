@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}.home-contect{
+margin: 3rem;
+padding: 1rem;
+}.home-contect p{
+max-width: 70rem;
+}
