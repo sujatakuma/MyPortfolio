@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css';
-//import About from './About'
-//import Skills from './Skils'
+import About from './routes/About'
+import Skills from './routes/Skils'
 //import Education from './Education'
-//import Projects from './Projects'
+import Projects from './routes/Projects'
 import { Icon } from '@iconify/react'
+
 const Home = () => {
   return (
     <div>
@@ -29,7 +30,9 @@ const Home = () => {
           </img>
         </div>
 
-
+<About></About>
+<Skills></Skills>
+<Projects></Projects>
 
       </section>
 

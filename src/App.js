@@ -6,11 +6,11 @@ import {
 
 } from "react-router-dom";
 import Nav from './commponent/Nav/Nav';
-import Home from './commponent/Home';
-import About from './commponent/About';
-import Skills from './commponent/Skills';
-import Education from './commponent/Education';
-import Projects from './commponent/Projects';
+import Home from './routes/Home';
+import About from './routes/About';
+import Skills from './routes/Skills';
+//import Education from './commponent/Education';
+import Projects from './routes/Projects';
 
 
 const router = createBrowserRouter([
@@ -28,10 +28,8 @@ const router = createBrowserRouter([
       },{
         path: 'skills',
         element: <Skills />
-      },{
-        path: 'eduction',
-        element: <Education />
-      },{
+      },
+      ,{
         path: 'project',
         element: <Projects />
       }
